@@ -1,0 +1,31 @@
+.content {
+  
+    text-align:  center;
+    padding: 10px;
+    padding-bottom: 90px;
+    background-color: white;
+    
+  }
+  .content img{
+    overflow:hidden; 
+    height: 250px;
+    width: 250px;
+    border-radius: 130px;
+    transition: all 1s ease-out;
+  
+  }
+  .content img:hover{
+    transform: scale(1.1);
+   
+  }
+  .foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  
+  .slova{
+    text-transform: uppercase;
+  }
+   

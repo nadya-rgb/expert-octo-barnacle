@@ -1,0 +1,93 @@
+
+  
+  
+  .header{
+    height: 100px;
+ 
+  text-align: left;
+
+  top: 0;
+  position: sticky;
+
+  background: white;
+
+  font-family: 'PT Sans', sans-serif;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+
+  display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+      
+  } 
+  
+  .header img{
+    
+    width: 150px;
+    margin: 0;
+  }
+
+  
+    .item {
+      text-decoration: none;
+      padding: 30px;
+      
+     
+        display: inline-block;
+        font-size: 1em;
+        font-weight: 800;
+        color: rgb(19, 32, 71);
+        overflow: hidden;
+        background: linear-gradient(to right, rgb(212, 126, 126), rgb(212, 126, 126) 50%, rgb(19, 32, 71) 50%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 200% 100%;
+        background-position: 100%;
+        transition: background-position 275ms ease;   
+          }
+      
+          a:hover {
+            background-position: 0 100%;
+          }
+        
+         
+          .tel  {
+            color: black;
+            font-weight: bold;
+          }
+        .zvon{
+          display: block;
+          
+        }
+        .button26 {
+          display: inline-block;
+          width: 200px;
+          height: 40px;
+          line-height: 50px;
+          font-size: 20px;
+          text-align: center;
+          text-decoration: none;
+          text-shadow: 0 1px rgba(121, 31, 80, 0.2), 0 -1px rgba(182, 12, 125, 0.8);
+          outline: none;
+          border: none;
+          border-radius: 100px;
+          background: rgb(138, 25, 91) radial-gradient(150% 100% at 50% 5px, rgba(151, 23, 94, 0.199), rgba(122, 60, 114, 0));
+          box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+          color: rgb(65, 25, 59);
+          user-select: none;
+        }
+        .button26:hover {
+          color: rgb(199, 114, 166);
+          cursor: pointer;
+        }
+        .button26:active {
+          padding-bottom: 1px;
+          box-shadow:
+           inset rgba(0,0,0,1) 0 1px 3px,
+           inset rgba(0,0,0,.6) 0 -2px 5px,
+           inset rgba(252,255,255,.7) 0 2px 5px,
+           0 1px rgba(255,255,255,.08);
+          color: rgb(128,207,214);
+         }
+      
